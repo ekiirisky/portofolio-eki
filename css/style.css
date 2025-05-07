@@ -998,7 +998,7 @@ section {
 }
 
 .contact-container {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 50px;
     position: relative;
@@ -1713,6 +1713,7 @@ input[type="button"] {
     .contact-container {
         flex-direction: column;
         gap: 30px;
+        display: flex;
     }
 
     .contact-info,
