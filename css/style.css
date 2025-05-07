@@ -998,7 +998,7 @@ section {
 }
 
 .contact-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 50px;
     position: relative;
